@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B35683A0-ED96-40DE-AFFE-4960C5349A3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{28142297-81BE-49B2-9D50-88033EBFB03D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{6D753DC7-447C-40B5-A381-1BCFC3D06D37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{81FA6D71-439B-434B-BA5E-695B113CB507}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{55E70B79-14B9-441F-862A-80954522D95B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syloq.Booking.Api", "src\Syloq.Booking.Api\Syloq.Booking.Api.csproj", "{92AF1EA4-CF92-4281-A3F2-5933CE9CF82C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syloq.Booking.Domain", "src\Syloq.Booking.Domain\Syloq.Booking.Domain.csproj", "{C5685646-F8F1-414E-A5BC-2679E4FD39C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syloq.Booking.Application", "src\Syloq.Booking.Application\Syloq.Booking.Application.csproj", "{C87908D6-219B-4C6E-9959-C4F00BBD14E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syloq.Booking.Persistence", "src\Syloq.Booking.Persistence\Syloq.Booking.Persistence.csproj", "{DFBA9E4A-2E73-4AC6-B2A7-48CB422E8EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syloq.Booking.External", "src\Syloq.Booking.External\Syloq.Booking.External.csproj", "{9BA1386F-908A-41ED-944C-9C072105217B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syloq.Booking.Common", "src\Syloq.Booking.Common\Syloq.Booking.Common.csproj", "{303796A9-BAE9-4B5B-8332-0CBBF157ECC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92AF1EA4-CF92-4281-A3F2-5933CE9CF82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92AF1EA4-CF92-4281-A3F2-5933CE9CF82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92AF1EA4-CF92-4281-A3F2-5933CE9CF82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92AF1EA4-CF92-4281-A3F2-5933CE9CF82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5685646-F8F1-414E-A5BC-2679E4FD39C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5685646-F8F1-414E-A5BC-2679E4FD39C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5685646-F8F1-414E-A5BC-2679E4FD39C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5685646-F8F1-414E-A5BC-2679E4FD39C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C87908D6-219B-4C6E-9959-C4F00BBD14E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C87908D6-219B-4C6E-9959-C4F00BBD14E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C87908D6-219B-4C6E-9959-C4F00BBD14E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C87908D6-219B-4C6E-9959-C4F00BBD14E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBA9E4A-2E73-4AC6-B2A7-48CB422E8EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBA9E4A-2E73-4AC6-B2A7-48CB422E8EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBA9E4A-2E73-4AC6-B2A7-48CB422E8EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBA9E4A-2E73-4AC6-B2A7-48CB422E8EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA1386F-908A-41ED-944C-9C072105217B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA1386F-908A-41ED-944C-9C072105217B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA1386F-908A-41ED-944C-9C072105217B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA1386F-908A-41ED-944C-9C072105217B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{303796A9-BAE9-4B5B-8332-0CBBF157ECC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{303796A9-BAE9-4B5B-8332-0CBBF157ECC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{303796A9-BAE9-4B5B-8332-0CBBF157ECC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{303796A9-BAE9-4B5B-8332-0CBBF157ECC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{28142297-81BE-49B2-9D50-88033EBFB03D} = {B35683A0-ED96-40DE-AFFE-4960C5349A3F}
+		{6D753DC7-447C-40B5-A381-1BCFC3D06D37} = {B35683A0-ED96-40DE-AFFE-4960C5349A3F}
+		{81FA6D71-439B-434B-BA5E-695B113CB507} = {B35683A0-ED96-40DE-AFFE-4960C5349A3F}
+		{55E70B79-14B9-441F-862A-80954522D95B} = {B35683A0-ED96-40DE-AFFE-4960C5349A3F}
+		{92AF1EA4-CF92-4281-A3F2-5933CE9CF82C} = {28142297-81BE-49B2-9D50-88033EBFB03D}
+		{C5685646-F8F1-414E-A5BC-2679E4FD39C4} = {6D753DC7-447C-40B5-A381-1BCFC3D06D37}
+		{C87908D6-219B-4C6E-9959-C4F00BBD14E5} = {6D753DC7-447C-40B5-A381-1BCFC3D06D37}
+		{DFBA9E4A-2E73-4AC6-B2A7-48CB422E8EF7} = {81FA6D71-439B-434B-BA5E-695B113CB507}
+		{9BA1386F-908A-41ED-944C-9C072105217B} = {81FA6D71-439B-434B-BA5E-695B113CB507}
+		{303796A9-BAE9-4B5B-8332-0CBBF157ECC2} = {55E70B79-14B9-441F-862A-80954522D95B}
+	EndGlobalSection
+EndGlobal
